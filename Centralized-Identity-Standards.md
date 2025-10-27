@@ -43,9 +43,10 @@ In some situations it may not be desireable to have the entire SAML message pass
 
  - Sometimes inconvenient for systems with strict URL length limits or security policies
 
-When using Artifact binding, instead of the SAML message being passed directly between IdP/SP short identifiers are passed and these are used to allow the IdP and the SP to setup a back channel communication over which the SAML over which the SP can send the *AuthnRequest* and the idP can send the *SAML Response*. This back channel communication is conducted using SOAP over HTTPS.
+When using Artifact binding, instead of the SAML message being passed directly between IdP/SP short identifiers are passed and these are used to allow the IdP and the SP to setup a back channel communication over which the SP can send the *AuthnRequest* and the idP can send the *SAML Response*. 
 
- all the traffic that passes between the iDp and the SP. In this case *Artifact Binding* can be used.
+This back channel communication is conducted using SOAP over HTTPS.
+
 
 ###  Redirect/POST compared to Artifacts
 
