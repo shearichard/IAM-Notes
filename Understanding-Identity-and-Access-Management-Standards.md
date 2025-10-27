@@ -5,7 +5,7 @@
  - Multiple applications are available as a result of signing onto one of them.
  - Achieved via a session cookie valid visible to all apps served from *.example.com.
  - EG: Logon ont GMail and subsequently have access to GDocs
- - However, people often use the term SSO to refer to a more general solution than this (see below)
+ - However, people often use the term SSO to refer to a more general solution than this (see below).
 
 ## Federation
  - One repository of credentials is used by multiple applications
