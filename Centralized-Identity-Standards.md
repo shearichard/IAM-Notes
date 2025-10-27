@@ -21,17 +21,17 @@ SAML (Security Assertion Markup Language) is primarily used for web-based Single
 
 In practice:
 
-    - A user accesses a web application (Service Provider, SP).
+- A user accesses a web application (Service Provider, SP).
 
-    - The SP redirects the browser to the Identity Provider (IdP).
+- The SP redirects the browser to the Identity Provider (IdP).
 
-    - The IdP authenticates the user and returns a SAML assertion (an XML document, often Base64-encoded) back to the SP, typically through:
+- The IdP authenticates the user and returns a SAML assertion (an XML document, often Base64-encoded) back to the SP, typically through:
 
-        - HTTP POST binding (form POST)
+    - HTTP POST binding (form POST)
 
-        - HTTP Redirect binding
+    - HTTP Redirect binding
 
-        - HTTP Artifact binding
+    - HTTP Artifact binding
 
 
 ### HTTP Artifact binding
